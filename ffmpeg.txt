@@ -1,0 +1,1 @@
+ffmpeg -re -i "http://localhost/audioVariant.m3u8" -re -i "http://localhost/videoVariant.m3u8" -map 1:0 -map 0:0 -c copy -hls_time 2 -hls_list_size 15 -hls_flags delete_segments+append_list /var/www/html/showtime.m3u8

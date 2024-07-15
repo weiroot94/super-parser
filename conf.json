@@ -1,0 +1,11 @@
+{
+  "id": "7f5f5993457648d68db2fa5d5103cbcc",
+  "service": "sling",
+  "net_itf": "eth0",
+  "proxy_addr": "",
+  "lang": "es, en",
+  "bandwidth": "low",
+  "apiformat_mpd": "https://key-extraction.eu/{service}/api.php?id={id}",
+  "apiformat_key": "https://key-extraction.eu/{service}/keys.php?id={id}&pssh={pssh-box}",
+  "max_segment_num": 10
+}
